@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+div, p, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 5% auto;
+  max-width: 180px;
+}
+
+.field-block {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  outline: 0.2px solid red;
+  vertical-align: top;
+}
+
+.mine {
+  background: red;
+}
