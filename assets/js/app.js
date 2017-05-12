@@ -33,7 +33,9 @@ var field = {
               }
             }
           }
-          block.text(counter);
+          if(counter > 0){
+            block.text(counter);
+          }
         }
 
       }
